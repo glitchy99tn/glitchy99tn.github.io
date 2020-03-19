@@ -29,12 +29,14 @@ h2 {
 }
 #profile:hover{
     border: 7px dashed rgb(250, 171, 0);
+    transition: ease-in 0.3s;
+    transform: scale(0.9);
 
 }
 #ul1{    color: rgb(250, 171, 0);
  
     list-style-type: none;}
-
+    #ul1>img{   transform:scale(1%) ;}
 
 #text1 {
     float: left;
@@ -67,3 +69,8 @@ button:hover>a {
     color: white;
 
 }
+
+#democontainer {display: inline-block;
+padding: 20;
+padding: 1%;
+margin-left: 15%;}
