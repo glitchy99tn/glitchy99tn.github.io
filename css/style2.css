@@ -1,0 +1,70 @@
+body{
+    background-image: url(../res/corona.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-size: 30px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    color: rgb(253, 253, 253);
+}
+
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+button {
+    background: rgb(250, 171, 0);
+    border: none;
+    color:rgb(34, 34, 34);
+    border-radius:5cm;
+    font-size: 20px;
+}
+
+#profile {
+width: 25%;
+float: left ;
+}
+#profile:hover{
+border: 7px dashed rgb(250, 171, 0);
+
+}
+#ul1{    color: rgb(250, 171, 0);
+
+list-style-type: none;}
+
+
+#text1 {
+float: left;
+list-style-type: none;
+}
+button:hover{  background:rgb(34, 34, 34);
+}
+a{text-decoration: none;}
+.hover_img a { position:relative;
+color:  rgb(250, 171, 0); }
+.hover_img a span { position:absolute; display:none; }
+.hover_img a:hover span { display:block; position: relative;}
+button:hover>a {
+
+border: none;
+color: rgb(250, 171, 0);
+border-radius:5cm;
+font-size: 20px;
+}
+
+.movies {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+
+#reservi:hover {
+color: white;
+
+}
+
