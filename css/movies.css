@@ -43,11 +43,21 @@ div.item {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 900;
+    width: 15;
+    height: 7%;
+    background-color: lightgrey;
+    padding: 1%;
+    margin: 2%;
+
 }
 img {
     height: 1000;
     background-color: grey;
 }
 
-
+div.item:hover {
+    box-shadow:5px 5px 5px  rgb(250, 171, 0);
+    transition: ease-in 0.3s;
+    transform: scale(1.1);
+    background-color: darkgre;
+}
